@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="utf-8">
+		<title>Chemotaxis</title>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="styles.css">
+		<script src="processing.js"></script>
+	</head>
+	<body>
+		<header>
+			<h1>Chemotaxis</h1>
+		</header>
+			<section id="content">
+				<canvas id="Chemotaxis" data-processing-sources="Chemotaxis.pde">
+				</canvas>
+		    </section>
+	    <footer>
+		    A model of bacteria with a biased random walk. The bacteria will naturally move towards food (black circles). When bacteria touch each other, if one is bigger it will eat the other. When big bacteria hit the green viruses, they split into two.
+		    <p>
+		    <b>Mouse:</b> Trigger bacteria to move towards mouse.<br>
+		    <b>r:</b> Reset all bacteria, food, and viruses.<br>
+		    <b>b:</b> Reset bacteria.<br>
+		    <b>f:</b> Reset food.<br>
+		    <b>v:</b> Reset viruses.<br>
+		    <p>
+		    <a href="http://github.com/noahzpepper/APCS/Chemotaxis">View the source code</a>
+	    </footer>
+	</body>
+</html>

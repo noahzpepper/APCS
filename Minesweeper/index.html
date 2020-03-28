@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="utf-8">
+		<title>Minesweeper</title>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="styles.css">
+		<script src="processing.js"></script>
+		<script src="Guido.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<header>
+			<h1>Minesweeper</h1>
+		</header>
+			<section id="content">
+				<canvas id="Minesweeper" data-processing-sources="Minesweeper.pde">
+				</canvas>
+		    </section>
+	    <footer>
+		    A remake of the classic Windows game Minesweeper.
+		    <p>
+		    When you win or lose, press enter to return to the pause menu to start a new game.
+		    <p>
+		    Timer may run inaccurately on some computers. 
+		    <p>
+			<b>Left click</b>: Reveal a tile.<br>
+			<b>Right click</b>: Mark a tile.<br>
+			<b>Center click</b>: Reveal nearby tiles (if fully flagged).<br>
+			<b>Enter</b>: Toggle the pause screen.<br>
+			<b>Spacebar</b>: Change difficulty on pause screen, change theme on game screen.<br>
+			<b>a</b>: Read more about the game (while on pause screen).<br>
+		    <p>
+		    <a href="http://www.github.com/noahzpepper/APCS/Minesweeper">View the source code</a>
+	    </footer>
+	</body>
+</html>
